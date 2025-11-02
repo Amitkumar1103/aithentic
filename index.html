@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aithentic | Product Showcase Studio</title>
+    <meta name="description"
+        content="Aithentic designs immersive product showcase experiences so brands can launch, demo, and sell with clarity." />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" href="./assets/images/aithentic-mark.svg" type="image/svg+xml" />
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <nav class="navbar navbar-expand-lg bg-black sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="./assets/images/aithentic-wordmark.svg" class="brand-logo" alt="Aithentic logo"
+                    loading="lazy" />
+            </a>
+            <button class="navbar-toggler bg-white opacity-50" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Capabilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#works">Showcase</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Insights</a>
+                    </li>
+                </ul>
+                <a href="#contact" class="btn btn-brand ms-lg-3">Book a discovery</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-carousel">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6500">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active hero-slide"
+                    style="background-image: url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80');">
+                    <div class="hero-slide__overlay"></div>
+                    <div class="container">
+                        <div class="hero-content" data-hero-slide>
+                            <span class="hero-eyebrow" data-hero-subtitle>Aithentic digital studio</span>
+                            <h1 class="display-4 fw-semibold" data-hero-title>Launch-ready UI systems</h1>
+                            <p class="lead text-white-50 mb-4" data-hero-copy>We translate product goals into immersive
+                                interfaces that excite decision makers and guide teams.</p>
+                            <div class="hero-cta d-flex flex-column flex-sm-row gap-3" data-hero-cta>
+                                <a href="#contact" class="btn btn-brand">Start a project</a>
+                                <a href="#services" class="btn btn-outline-light">View capabilities</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item hero-slide"
+                    style="background-image: url('https://images.unsplash.com/photo-1523475472560-d2df97ec485c?auto=format&fit=crop&w=1600&q=80');">
+                    <div class="hero-slide__overlay"></div>
+                    <div class="container">
+                        <div class="hero-content" data-hero-slide>
+                            <span class="hero-eyebrow" data-hero-subtitle>Product showcase studio</span>
+                            <h1 class="display-4 fw-semibold" data-hero-title>Stories engineered for conversion</h1>
+                            <p class="lead text-white-50 mb-4" data-hero-copy>Crafted walkthroughs, motion systems, and
+                                enablement stacks keep every launch moment consistent.</p>
+                            <div class="hero-cta d-flex flex-column flex-sm-row gap-3" data-hero-cta>
+                                <a href="#works" class="btn btn-brand">Explore showcase</a>
+                                <a href="#blog" class="btn btn-outline-light">See how we build</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item hero-slide"
+                    style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80');">
+                    <div class="hero-slide__overlay"></div>
+                    <div class="container">
+                        <div class="hero-content" data-hero-slide>
+                            <span class="hero-eyebrow" data-hero-subtitle>Experience architecture</span>
+                            <h1 class="display-4 fw-semibold" data-hero-title>From Figma to production in weeks</h1>
+                            <p class="lead text-white-50 mb-4" data-hero-copy>Our hybrid team of strategists, designers,
+                                and engineers delivers assets your product and growth teams can run with.</p>
+                            <div class="hero-cta d-flex flex-column flex-sm-row gap-3" data-hero-cta>
+                                <a href="#contact" class="btn btn-brand">Book a discovery call</a>
+                                <a href="#services" class="btn btn-outline-light">Capabilities deck</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding bg-black mt-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <div class="section-title">
+                        <h1 class="display-4 fw-semibold">About Aithentic</h1>
+                        <div class="line"></div>
+                        <p>We help visionary teams translate complex products into interactive launch experiences that
+                            inform, inspire, and convert.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6" data-aos="fade-down" data-aos-delay="200">
+                    <div class="about-visual">
+                        <img class="about-visual__image"
+                            src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80"
+                            alt="Aithentic team shaping digital product journeys" loading="lazy">
+                        <div class="about-visual__logo">
+                            <img src="./assets/images/aithentic-mark.svg" alt="Aithentic mark" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5" data-aos="fade-down" data-aos-delay="250">
+                    <h1>Show, don't just tell</h1>
+                    <p class="mt-3 mt-4 text-white">Every decision we make is orchestrated around what your audience
+                        should feel, learn, and do. From cinematic hero moments to data-rich detail views, we blend
+                        storytelling and systems thinking into a single launch layer.</p>
+                    <div class="about-highlight d-flex pt-4 mb-3">
+                        <div class="searchbox me-4">
+                            <i class="ri-fingerprint-line"></i>
+                        </div>
+                        <div>
+                            <p class="text-white">Signature narrative frameworks that adapt to enterprise, SaaS, and
+                                eCommerce journeys without feeling templated.</p>
+                        </div>
+                    </div>
+                    <div class="about-highlight d-flex mb-3">
+                        <div class="searchbox me-4">
+                            <i class="ri-magic-line"></i>
+                        </div>
+                        <div>
+                            <p class="text-white">Live data, guided tours, and immersive prototypes that reduce
+                                questions by 42% during sales and investor demos.</p>
+                        </div>
+                    </div>
+                    <div class="about-highlight d-flex">
+                        <div class="searchbox me-4">
+                            <i class="ri-compass-3-line"></i>
+                        </div>
+                        <div>
+                            <p class="text-white">A multidisciplinary team across brand, motion, and engineering ready
+                                to
+                                ship pixel-perfect launch systems in weeks, not quarters.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section-padding bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <div class="section-title">
+                        <h1 class="display-4 fw-semibold">Capabilities we deliver</h1>
+                        <div class="line"></div>
+                        <p>Each capability combines strategy, motion, and full-stack craft so your product launch feels
+                            alive from hero block to handoff.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+                    <button type="button" class="service-card theme-shadow" data-service-key="ui-design"
+                        aria-label="View details for UI design systems">
+                        <div class="service-card__media">
+                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+                                alt="UI design workflows" loading="lazy">
+                            <span class="service-card__badge">Design Ops</span>
+                        </div>
+                        <div class="service-card__content">
+                            <h5>UI/UX Design</h5>
+                            <p>Crafting intuitive and visually stunning user experiences that engage and inspire.</p>
+                            <span class="service-card__cta">View Details</span>
+                        </div>
+                    </button>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <button type="button" class="service-card theme-shadow" data-service-key="web-build"
+                        aria-label="View details for website making">
+                        <div class="service-card__media">
+                            <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=900&q=80"
+                                alt="Website build" loading="lazy">
+                            <span class="service-card__badge">Webcraft</span>
+                        </div>
+                        <div class="service-card__content">
+                            <h5>Web Development</h5>
+                            <p>Building fast, secure, and scalable websites tailored to your brand identity.</p>
+                            <span class="service-card__cta">View Details</span>
+                        </div>
+                    </button>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
+                    <button type="button" class="service-card theme-shadow" data-service-key="product-strategy"
+                        aria-label="View details for product strategy">
+                        <div class="service-card__media">
+                            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80"
+                                alt="App Development" loading="lazy">
+                            <span class="service-card__badge">Playbook</span>
+                        </div>
+                        <div class="service-card__content">
+                            <h5>App Development</h5>
+                            <p>Building high-quality mobile and web applications that deliver seamless user experiences.
+                            </p>
+                            <span class="service-card__cta">View Details</span>
+                        </div>
+                    </button>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <button type="button" class="service-card theme-shadow" data-service-key="prototyping"
+                        aria-label="View details for interactive prototypes">
+                        <div class="service-card__media">
+                            <img src="https://images.unsplash.com/photo-1523475472560-d2df97ec485c?auto=format&fit=crop&w=900&q=80"
+                                alt="Interactive prototypes" loading="lazy">
+                            <span class="service-card__badge">Prototype</span>
+                        </div>
+                        <div class="service-card__content">
+                            <h5>Interactive Prototype Theatre</h5>
+                            <p>Scenario-driven prototypes with video, motion, and data hooks so teams can sell before
+                                shipping.</p>
+                            <span class="service-card__cta">View Details</span>
+                        </div>
+                    </button>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="350">
+                    <button type="button" class="service-card theme-shadow" data-service-key="brand-identity"
+                        aria-label="View details for brand identity">
+                        <div class="service-card__media">
+                            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=900&q=80"
+                                alt="Brand identity exploration" loading="lazy">
+                            <span class="service-card__badge">Identity</span>
+                        </div>
+                        <div class="service-card__content">
+                            <h5>Brand &amp; Launch Identity</h5>
+                            <p>Voice, motion, and visual systems that make every presentation, deck, and video
+                                unmistakably
+                                yours.</p>
+                            <span class="service-card__cta">View Details</span>
+                        </div>
+                    </button>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <button type="button" class="service-card theme-shadow" data-service-key="growth-analytics"
+                        aria-label="View details for growth analytics">
+                        <div class="service-card__media">
+                            <img src="https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&w=900&q=80"
+                                alt="Growth analytics dashboard" loading="lazy">
+                            <span class="service-card__badge">Insights</span>
+                        </div>
+                        <div class="service-card__content">
+                            <h5>Growth Analytics &amp; Enablement</h5>
+                            <p>Revenue dashboards, enablement hubs, and automation that keep teams aligned after launch.
+                            </p>
+                            <span class="service-card__cta">View Details</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <div class="service-modal" id="serviceModal" aria-hidden="true">
+                <div class="service-modal__backdrop" data-modal-close></div>
+                <div class="service-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="serviceModalTitle">
+                    <button class="service-modal__close" type="button" data-modal-close
+                        aria-label="Close service details">
+                        <i class="ri-close-line"></i>
+                    </button>
+                    <div class="service-modal__body">
+                        <div class="service-modal__image-wrapper">
+                            <img src="" alt="" class="service-modal__image" data-modal-image loading="lazy">
+                        </div>
+                        <div class="service-modal__text">
+                            <h3 id="serviceModalTitle" data-modal-title></h3>
+                            <p data-modal-description></p>
+                            <ul class="service-modal__list" data-modal-list></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="counter" class="section-padding mt-2">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="counter-card theme-shadow">
+                        <div class="counter-icon">
+                            <i class="ri-rocket-line"></i>
+                        </div>
+                        <span class="counter-value" data-counter-target="480" data-counter-suffix="+">0</span>
+                        <p class="counter-label">Launch assets shipped</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="250">
+                    <div class="counter-card theme-shadow">
+                        <div class="counter-icon">
+                            <i class="ri-group-2-line"></i>
+                        </div>
+                        <span class="counter-value" data-counter-target="160" data-counter-suffix="+">0</span>
+                        <p class="counter-label">Product teams partnered</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="350">
+                    <div class="counter-card theme-shadow">
+                        <div class="counter-icon">
+                            <i class="ri-star-smile-line"></i>
+                        </div>
+                        <span class="counter-value" data-counter-target="40" data-counter-suffix="+">0</span>
+                        <p class="counter-label">Awarded launch features</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="section-padding mt-2 bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <div class="section-title">
+                        <h1 class="display-4 fw-semibold">Selected showcase</h1>
+                        <div class="line"></div>
+                        <p>Snapshots from product launches we co-created with teams spanning AI tooling, SaaS platforms,
+                            and connected retail.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
+                    <div class="portfolio-item image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/image.png" alt="Product dashboard concept" loading="lazy">
+                        </div>
+                        <a href="./assets/images/image.png" data-fancybox="gallery" data-caption="Figma Designing"
+                            class="searchbox"><i class="ri-search-2-line"></i></a>
+                    </div>
+                    <div class="portfolio-item image-zoom mt-4">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/image2.png" alt="Designing Website landing page" loading="lazy" />
+                        </div>
+                        <a href="./assets/images/image2.png" data-fancybox="gallery"
+                            data-caption="Designing Website landing page" class="searchbox"><i
+                                class="ri-search-2-line"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
+                    <div class="portfolio-item image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/image3.png" alt="website development" loading="lazy">
+                        </div>
+                        <a href="./assets/images/image3.png" data-fancybox="gallery"
+                            data-caption="website development canvas" class="searchbox"><i
+                                class="ri-search-2-line"></i></a>
+                    </div>
+                    <div class="portfolio-item image-zoom mt-4">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/image5.png" alt="Logo Brand Identity" loading="lazy" />
+                        </div>
+                        <a href="./assets/images/image5.png" data-fancybox="gallery" data-caption="Logo Brand Identity"
+                            class="searchbox"><i class="ri-search-2-line"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
+                    <div class="portfolio-item image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/image4.png" alt="dashboard design" loading="lazy">
+                        </div>
+                        <a href="./assets/images/image4.png" data-fancybox="gallery"
+                            data-caption="Launch dashboard art direction" class="searchbox"><i
+                                class="ri-search-2-line"></i></a>
+                    </div>
+                    <div class="portfolio-item image-zoom mt-4">
+                        <div class="image-zoom-wrapper">
+                            <img src="./assets/images/image6.png" alt="showcasing website development" loading="lazy" />
+                        </div>
+                        <a href="./assets/images/image6.png" data-fancybox="gallery"
+                            data-caption="showcasing website development" class="searchbox"><i
+                                class="ri-search-2-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class=" section-padding bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <div class="section-title">
+                        <h1 class="display-4 fw-semibold">Testimonials</h1>
+                        <div class="line"></div>
+                        <p>What our partners say about bringing their product stories to life with us.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-5 gx-4">
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+                    <div class="review">
+                        <div class="review-head p-4 bg-dark theme-shadow">
+                            <div class=" text-warning">
+                                <i class=" ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p style="color: white;">Aithentic reframed our AI platform into a narrative stakeholders
+                                immediately understood. The live prototype closed a six-figure deal in week one.</p>
+                        </div>
+                        <div class="review-person d-flex align-items-center mt-4">
+                            <img class="rounded-circle" src="./assets/images/avatar-1.jpg" alt="reviews 1"
+                                loading="lazy">
+                            <div class="ms-3">
+                                <h5>Anayan Gupta</h5>
+                                <small>Co-founder, Lattice IQ</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="250">
+                    <div class="review">
+                        <div class="review-head p-4 bg-dark theme-shadow">
+                            <div class=" text-warning">
+                                <i class=" ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p style="color: white;">They built a product customizer that mirrors our manufacturing data
+                                streams. Sales demos dropped from 45 minutes to 18 minutes.</p>
+                        </div>
+                        <div class="review-person d-flex align-items-center mt-4">
+                            <img class="rounded-circle" src="./assets/images/avatar-2.jpg" alt="reviews 2"
+                                loading="lazy">
+                            <div class="ms-3">
+                                <h5>Victor Chacha</h5>
+                                <small>Head of Growth, BGMI Robotics</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="350">
+                    <div class="review">
+                        <div class="review-head p-4 bg-dark theme-shadow">
+                            <div class=" text-warning">
+                                <i class=" ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p style="color: white;">The team didn't just design; they challenged our GTM, layered
+                                analytics, and gave us a launch hub that keeps evolving.</p>
+                        </div>
+                        <div class="review-person d-flex align-items-center mt-4">
+                            <img class="rounded-circle" src="./assets/images/avatar-3.jpg" alt="reviews 3"
+                                loading="lazy">
+                            <div class="ms-3">
+                                <h5>Sujal Holland</h5>
+                                <small>CMO, Northstar Commerce</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="450">
+                    <div class="review">
+                        <div class="review-head p-4 bg-dark theme-shadow">
+                            <div class=" text-warning">
+                                <i class=" ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p style="color: white;">Motion, story, and engineering under one roof. Our investors called
+                                the experience "category defining".</p>
+                        </div>
+                        <div class="review-person d-flex align-items-center mt-4">
+                            <img class="rounded-circle" src="./assets/images/avatar-4.jpg" alt="reviews 4"
+                                loading="lazy">
+                            <div class="ms-3">
+                                <h5>Lucas Muthin</h5>
+                                <small>Founder, Sequence Labs</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="550">
+                    <div class="review">
+                        <div class="review-head p-4 bg-dark theme-shadow">
+                            <div class=" text-warning">
+                                <i class=" ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p style="color: white;">From beta to public launch, they orchestrated every touchpoint and
+                                kept our internal teams moving in sync.</p>
+                        </div>
+                        <div class="review-person d-flex align-items-center mt-4">
+                            <img class="rounded-circle" src="./assets/images/avatar-5.jpg" alt="reviews 5"
+                                loading="lazy">
+                            <div class="ms-3">
+                                <h5>Nikhil Rao Saheb</h5>
+                                <small>Product Director, Waveform</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="650">
+                    <div class="review">
+                        <div class="review-head p-4 bg-dark theme-shadow">
+                            <div class=" text-warning">
+                                <i class=" ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p style="color: white;">Best partner we've had for web launches. They anticipate what your
+                                customer will ask before you do.</p>
+                        </div>
+                        <div class="review-person d-flex align-items-center mt-4">
+                            <img class="rounded-circle" src="./assets/images/avatar-6.jpg" alt="reviews 6"
+                                loading="lazy">
+                            <div class="ms-3">
+                                <h5>Sabya Pike</h5>
+                                <small>VP Product, HelioGrid</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <div class="section-title">
+                        <h1 class="display-4 text-white fw-semibold">Let's build your launch layer</h1>
+                        <div class="line text-white"></div>
+                        <p class="text-white">Share your roadmap and we'll design a product showcase that guides people
+                            from curiosity to conviction.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 align-items-stretch" data-aos="fade-down" data-aos-delay="250">
+                <div class="col-lg-4">
+                    <div class="contact-card theme-shadow h-100">
+                        <div class="contact-card__badge">Studio Hotline</div>
+                        <h5 class="text-white">Talk to an experience architect</h5>
+                        <p class="text-white-50 mb-4">We respond within 24 hours with a shaped approach and a curated
+                            call agenda.</p>
+                        <ul class="contact-card__list">
+                            <li><i class="ri-phone-line"></i><a href="tel:+918968287332">+91 89682 87332 </a></li>
+                            <li><i class="ri-mail-line"></i><a href="mailto:hello@aithentic.co">hello@aithentic.co</a>
+                            </li>
+                            <li><i class="ri-map-pin-line"></i>Worldwide studio, HQ in Dera Bassi &amp; GGS College</li>
+                            <li><i class="ri-time-line"></i>Monday - Friday, 9:00 AM to 9:00 PM IST</li>
+                        </ul>
+                        <div class="contact-card__cta">
+                            <span>Need something live this week?</span>
+                            <a class="btn btn-sm btn-outline-light mt-3" href="mailto:sprint@aithentic.co">Start a
+                                sprint</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <!-- <form id="contactForm" class="contact-form row g-3 p-lg-5 p-4 bg-white theme-shadow" novalidate>
+                        <div class="form-group col-md-6">
+                            <label for="firstName" class="form-label visually-hidden">First Name</label>
+                            <input type="text" class="form-control" id="firstName" name="firstName"
+                                placeholder="First name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lastName" class="form-label visually-hidden">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName"
+                                placeholder="Last name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email" class="form-label visually-hidden">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="Enter email address" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="phone" class="form-label visually-hidden">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone number"
+                                pattern="[0-9+\-()\s]{7,}" required>
+                        </div>
+                        <div class="form-group col-12">
+                            <label for="subject" class="form-label visually-hidden">Subject</label>
+                            <input type="text" class="form-control" id="subject" name="subject"
+                                placeholder="What should we explore?" required>
+                        </div>
+                        <div class="form-group col-12">
+                            <label for="message" class="form-label visually-hidden">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form-control"
+                                placeholder="Share context, goals, launch date, or links" required></textarea>
+                        </div>
+                        <div class="form-group col-12 d-grid">
+                            <button type="submit" class="btn btn-brand">Send message</button>
+                        </div>
+                    </form> -->
+                    <form id="contactForm" class="contact-form row g-3 p-lg-5 p-4 bg-white theme-shadow"
+                        data-netlify="false">
+                        <div class="form-group col-md-6">
+                            <label for="firstName" class="form-label visually-hidden">First Name</label>
+                            <input type="text" class="form-control" id="firstName" name="firstName"
+                                placeholder="First name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lastName" class="form-label visually-hidden">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName"
+                                placeholder="Last name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email" class="form-label visually-hidden">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="Enter email address" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="phone" class="form-label visually-hidden">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone number"
+                                required>
+                        </div>
+                        <div class="form-group col-12">
+                            <label for="subject" class="form-label visually-hidden">Subject</label>
+                            <input type="text" class="form-control" id="subject" name="subject"
+                                placeholder="What should we explore?" required>
+                        </div>
+                        <div class="form-group col-12">
+                            <label for="message" class="form-label visually-hidden">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form-control"
+                                placeholder="Share context, goals, launch date, or links" required></textarea>
+                        </div>
+                        <div class="form-group col-12 d-grid">
+                            <button type="submit" class="btn btn-brand">Send message</button>
+                        </div>
+                        <div id="formStatus" class="col-12 text-center" style="display: none;"></div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="section-padding bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <div class="section-title">
+                        <h1 class="display-4 fw-semibold">Recent insights &amp; articles</h1>
+                        <div class="line"></div>
+                        <p>Field notes on how we choreograph product launches, measure resonance, and scale enablement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+                    <article class="blog-card theme-shadow h-100" data-article-key="immersive-demos">
+                        <div class="blog-card__media image-zoom">
+                            <div class="image-zoom-wrapper">
+                                <img src="https://images.unsplash.com/photo-1729714055320-4d1c5d5e213d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+                                    alt="Immersive demo systems" loading="lazy">
+                            </div>
+                            <span class="blog-card__category">Playbooks</span>
+                        </div>
+                        <div class="blog-card__body">
+                            <h5>Designing immersive demo operating systems</h5>
+                            <p>How to stack narrative, motion, and data layers so buyers explore versus observe.</p>
+                            <button type="button" class="blog-card__link" data-article-trigger>Read Story</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
+                    <article class="blog-card theme-shadow h-100" data-article-key="launch-analytics">
+                        <div class="blog-card__media image-zoom">
+                            <div class="image-zoom-wrapper">
+                                <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=900&q=80"
+                                    alt="Launch analytics canvas" loading="lazy">
+                            </div>
+                            <span class="blog-card__category">Insights</span>
+                        </div>
+                        <div class="blog-card__body">
+                            <h5>Measuring launch resonance with live analytics</h5>
+                            <p>Instrumentation patterns that connect view states with sales follow-up workflows.</p>
+                            <button type="button" class="blog-card__link" data-article-trigger>Discover Tips</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="350">
+                    <article class="blog-card theme-shadow h-100" data-article-key="team-enablement">
+                        <div class="blog-card__media image-zoom">
+                            <div class="image-zoom-wrapper">
+                                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80"
+                                    alt="Enablement systems" loading="lazy">
+                            </div>
+                            <span class="blog-card__category">Operations</span>
+                        </div>
+                        <div class="blog-card__body">
+                            <h5>Enablement stacks that keep teams launch-ready</h5>
+                            <p>Playlists, portals, and rituals to keep your internal champions aligned post-launch.</p>
+                            <button type="button" class="blog-card__link" data-article-trigger>Learn More</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black">
+        <div class="line1"></div>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-3 col-sm-6">
+                        <a href="#home" class="footer-brand">
+                            <img src="./assets/images/aithentic-wordmark.svg" alt="Aithentic logo" loading="lazy">
+                        </a>
+                        <div class="line"></div>
+                        <p class="text-white-50">Aithentic choreographs product showcases, demo journeys, and enablement
+                            stacks for teams shipping the future.</p>
+                        <div class="social-icons">
+                            <a class="footer-link" href="https://www.linkedin.com/in/kramit2005" target="_blank"
+                                aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+                            <!-- <a class="footer-link" href="#" aria-label="Twitter"><i class="ri-twitter-x-fill"></i></a> -->
+                            <a class="footer-link" href="#" aria-label="Dribbble"><i class="ri-dribbble-line"></i></a>
+                            <a class="footer-link" href="#" aria-label="YouTube"><i class="ri-youtube-line"></i></a>
+                            <a class="footer-link" href="https://www.behance.net/mayankkumar250" target="_blank"
+                                aria-label="behance"><i class="ri-behance-line"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0 text-white">Launch stack</h5>
+                        <div class="line"></div>
+                        <ul>
+                            <li><a class="footer-link" href="#services">Narrative systems</a></li>
+                            <li><a class="footer-link" href="#services">Interactive prototypes</a></li>
+                            <li><a class="footer-link" href="#services">Analytics storytelling</a></li>
+                            <li><a class="footer-link" href="#services" data-footer-service="other-services">Other
+                                    services</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0 text-white">Resources</h5>
+                        <div class="line"></div>
+                        <ul>
+                            <li><a class="footer-link" href="#blog">Insights hub</a></li>
+                            <li><a class="footer-link" href="#works">Showcase library</a></li>
+                            <li><a class="footer-link" href="#reviews">Client notes</a></li>
+                            <li><a class="footer-link" href="#contact">Project kickoff</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0 text-white">Stay in the loop</h5>
+                        <div class="line"></div>
+                        <p class="text-white-50">Monthly digest on launch rituals, product storytelling, and motion
+                            systems.</p>
+                        <form class="footer-form" id="footerSubscribe" novalidate>
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+                                <button class="btn btn-brand" type="submit">Join</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row g-4 justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">Aithentic Studios. All rights reserved.</p>
+                    </div>
+                    <div class="col-auto">
+                        <p class="mb-0">Built for builders who ship.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade info-modal" id="infoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" data-info-title>Title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" data-info-body></div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script>
+        const contactForm = document.getElementById('contactForm');
+        const formStatus = document.getElementById('formStatus');
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw7Lj_OxAM9PenfmsOAVdWt0kRbBOas0aPw1MvkC-QJGHhLse5hmoPAk8bt3Oh88-I3Hg/exec'; // Replace with your Google Apps Script URL
+
+        contactForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Show loading state
+            const submitBtn = contactForm.querySelector('button[type="submit"]');
+            const originalBtnText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Sending...';
+            submitBtn.disabled = true;
+
+            // Send data to Google Sheets
+            fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(contactForm)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    // Success message
+                    formStatus.style.display = 'block';
+                    formStatus.className = 'col-12 text-center alert alert-success';
+                    formStatus.innerHTML = '✓ Message sent successfully! We\'ll respond within 24 hours.';
+
+                    // Reset form
+                    contactForm.reset();
+
+                    // Reset button
+                    submitBtn.innerHTML = originalBtnText;
+                    submitBtn.disabled = false;
+
+                    // Hide message after 5 seconds
+                    setTimeout(() => {
+                        formStatus.style.display = 'none';
+                    }, 5000);
+                })
+                .catch(error => {
+                    // Error message
+                    formStatus.style.display = 'block';
+                    formStatus.className = 'col-12 text-center alert alert-danger';
+                    formStatus.innerHTML = '✗ Something went wrong. Please try again or email us directly.';
+
+                    // Reset button
+                    submitBtn.innerHTML = originalBtnText;
+                    submitBtn.disabled = false;
+
+                    console.error('Error:', error);
+                });
+        });
+    </script> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
