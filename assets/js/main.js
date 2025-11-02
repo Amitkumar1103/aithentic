@@ -475,7 +475,7 @@ async function submitContactRequest(payload) {
   }
 
   // Replace with your Google Apps Script Web App URL
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbw7Lj_OxAM9PenfmsOAVdWt0kRbBOas0aPw1MvkC-QJGHhLse5hmoPAk8bt3Oh88-I3Hg/exec';
+  const scriptURL = 'Add_your_google_apps_Script_web_app_url';
 
   try {
     // Create FormData for Google Apps Script
